@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'BPG Banner ExtraSquare';
+    src: url(../../fonts/bpg-banner-extrasquare-webfont.eot);
+    src: url(../../fonts/bpg-banner-extrasquare-webfont.eot?#iefix) format('embedded-opentype'), url(../../fonts/bpg-banner-extrasquare-webfont.woff2) format('woff2'), url(../../fonts/bpg-banner-extrasquare-webfont.woff) format('woff'), url(../../fonts/bpg-banner-extrasquare-webfont.ttf) format('truetype'), url(../../fonts/bpg-banner-extrasquare-webfont.svg#bpg_banner_extrasquareregular) format('svg')
+}
+
+@font-face {
+    font-family: 'BPG Banner ExtraSquare Caps';
+    src: url(../../fonts/bpg-banner-extrasquare-caps-webfont.eot);
+    src: url(../../fonts/bpg-banner-extrasquare-caps-webfont.eot?#iefix) format('embedded-opentype'), url(../../fonts/bpg-banner-extrasquare-caps-webfont.woff2) format('woff2'), url(../../fonts/bpg-banner-extrasquare-caps-webfont.woff) format('woff'), url(../../fonts/bpg-banner-extrasquare-caps-webfont.ttf) format('truetype'), url(../../fonts/bpg-banner-extrasquare-caps-webfont.svg#bpg_banner_extrasquare_capsregular) format('svg')
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'BPG Banner ExtraSquare Caps', sans-serif;
+}
+
+span {
+    font-family: 'BPG Banner ExtraSquare Caps', sans-serif;
+}
+
+a {
+    font-family: 'BPG Banner ExtraSquare Caps', sans-serif;
+}
+
+button {
+    font-family: 'BPG Banner ExtraSquare Caps', sans-serif;
+}
+
+label {
+    font-family: 'BPG Banner ExtraSquare Caps', sans-serif;
+}
+
+input {
+    font-family: 'BPG Banner ExtraSquare', sans-serif;
+}
+
+textarea {
+    font-family: 'BPG Banner ExtraSquare', sans-serif;
+}
+
+p {
+    font-family: 'BPG Banner ExtraSquare', sans-serif;
+}

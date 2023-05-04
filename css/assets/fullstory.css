@@ -1,0 +1,42 @@
+.fs-video {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    color: #000;
+    background-color: #ffffff;
+    margin: 15px 0px 15px 0px;
+}
+
+.fs-info {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin: 15px 0px 15px 0px;
+    padding: 10px;
+}
+
+.fs-info ul li a {
+    text-transform: uppercase;
+}
+
+.fs-info .titles {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    line-height: normal;
+}
+
+.fs-info .fs-detail {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.fs-comments {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+}

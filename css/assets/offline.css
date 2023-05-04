@@ -1,0 +1,184 @@
+:root {
+    --primary: #2196f3;
+    --primary-hover: #42a5f5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'BPG Banner ExtraSquare Caps', sans-serif;
+    font-size: 14px;
+    color: #000;
+    background-color: #f4f4f4;
+}
+
+
+
+
+
+
+/* ===== LOGO CSS // ANIMEGALAXY.GE ===== */
+.logo-cont {
+    position: relative;
+    margin: 35px 0 0 0;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-cont .logo {
+    padding: 15px;
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    align-items: center;
+    transition: color 0.3s ease-in;
+}
+
+.logo-cont .logo span {
+    color: var(--primary);
+}
+
+.logo-cont .logo:hover {
+    color: var(--primary);
+}
+
+
+
+
+
+
+/* ===== REASON CSS // ANIMEGALAXY.GE ===== */
+.reason-cont {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.reason-cont2 {
+    position: relative;
+    margin: 50px auto;
+    padding: 15px;
+    max-width: 60%;
+    background-color: #ffffff;
+}
+
+.reason-cont2 h3 {
+    font-size: 20px;
+}
+
+.reason-cont2 p {
+    margin: 10px 0 0 0;
+    font-size: 16px;
+}
+
+@media (max-width:449px) {
+    .reason-cont2 {
+        max-width: 65%;
+    }
+}
+
+@media (max-width:420px) {
+    .reason-cont2 {
+        max-width: 66%;
+    }
+}
+
+@media (max-width:370px) {
+    .reason-cont2 {
+        max-width: 74%;
+    }
+}
+
+@media (max-width:359px) {
+    .reason-cont2 {
+        max-width: 78%;
+    }
+}
+
+@media (max-width:285px) {
+    .reason-cont2 {
+        max-width: 95%;
+    }
+}
+
+
+
+
+/* ===== CONTAINER CSS // ANIMEGALAXY.GE ===== */
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
+
+@media only screen and (min-width: 601px) {
+    .container {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+/* ===== FONTS CSS // ANIMEGALAXY.GE ===== */
+@font-face {
+    font-family: 'BPG Banner ExtraSquare';
+    src: url(../../fonts/bpg-banner-extrasquare-webfont.eot);
+    src: url(../../fonts/bpg-banner-extrasquare-webfont.eot?#iefix) format('embedded-opentype'), url(../../fonts/bpg-banner-extrasquare-webfont.woff2) format('woff2'), url(../../fonts/bpg-banner-extrasquare-webfont.woff) format('woff'), url(../../fonts/bpg-banner-extrasquare-webfont.ttf) format('truetype'), url(../../fonts/bpg-banner-extrasquare-webfont.svg#bpg_banner_extrasquareregular) format('svg')
+}
+
+@font-face {
+    font-family: 'BPG Banner ExtraSquare Caps';
+    src: url(../../fonts/bpg-banner-extrasquare-caps-webfont.eot);
+    src: url(../../fonts/bpg-banner-extrasquare-caps-webfont.eot?#iefix) format('embedded-opentype'), url(../../fonts/bpg-banner-extrasquare-caps-webfont.woff2) format('woff2'), url(../../fonts/bpg-banner-extrasquare-caps-webfont.woff) format('woff'), url(../../fonts/bpg-banner-extrasquare-caps-webfont.ttf) format('truetype'), url(../../fonts/bpg-banner-extrasquare-caps-webfont.svg#bpg_banner_extrasquare_capsregular) format('svg')
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'BPG Banner ExtraSquare Caps', sans-serif;
+}
+
+span {
+    font-family: 'BPG Banner ExtraSquare Caps', sans-serif;
+}
+
+a {
+    font-family: 'BPG Banner ExtraSquare Caps', sans-serif;
+}
+
+button {
+    font-family: 'BPG Banner ExtraSquare Caps', sans-serif;
+}
+
+label {
+    font-family: 'BPG Banner ExtraSquare Caps', sans-serif;
+}
+
+input {
+    font-family: 'BPG Banner ExtraSquare', sans-serif;
+}
+
+textarea {
+    font-family: 'BPG Banner ExtraSquare', sans-serif;
+}
+
+p {
+    font-family: 'BPG Banner ExtraSquare', sans-serif;
+}
